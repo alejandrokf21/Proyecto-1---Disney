@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace Proyecto_1___Disney
 {
-    public partial class Form1 : Form
+    public partial class PantallPrincipal : Form
     {
-        public Form1()
+        public PantallPrincipal()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            //cargar el nombre del usuario al menu
+            usuarioToolStripMenuItem.Text = "Prueba";
         }
     }
 }
