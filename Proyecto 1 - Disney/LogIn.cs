@@ -38,19 +38,7 @@ namespace Proyecto_1___Disney
             comboBox2.Text = "";
         }
 
-        private int getUserType(string user)
-        {
-            if (listaUsuario!=null)
-            {
-                Estructuras.ListaDobleEnlazada.NodoListaDoble auxliar = listaUsuario.primerNodo();
-                while (auxliar != null)
-                {
-                    if (auxliar.dato.ToString() == selectedUser)
-                        auxliar.dato.TipoUsuario();
-                }
-            }
-        }
-
+       
         private void button2_Click(object sender, EventArgs e)
         {
             //Boton iniciar sesion
