@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Pelicula.cs" />
+    <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Estructuras\Cola\Cola.cs" />
     <Compile Include="Estructuras\Cola\NodoCola.cs" />
     <Compile Include="Estructuras\ListaDobleEnlazada\ListaDoble.cs" />
@@ -128,6 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\add-user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit_41038.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
