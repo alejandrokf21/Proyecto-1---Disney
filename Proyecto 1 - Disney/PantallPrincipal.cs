@@ -20,7 +20,15 @@ namespace Proyecto_1___Disney
         private void Form1_Load(object sender, EventArgs e)
         {
             //cargar el nombre del usuario al menu
-            usuarioToolStripMenuItem.Text = "Prueba";
+            usuarioToolStripMenuItem.Text = LogIn.selectedUser;
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            var mostraLogIn = new LogIn();
+            mostraLogIn.Show();
+
         }
     }
 }

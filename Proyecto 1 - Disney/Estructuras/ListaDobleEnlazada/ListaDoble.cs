@@ -40,7 +40,14 @@ namespace Proyecto_1___Disney.Estructuras.ListaDobleEnlazada
         //Metodo para mostrar datos de la lista
         public NodoListaDoble primerNodo()
         {
+            Console.WriteLine(primero.dato.ToString());
             return primero;
+        }
+
+        public NodoListaDoble ultimoNodo()
+        {
+            Console.WriteLine(ultimo.dato.ToString());
+            return ultimo;
         }
 
         //Metodo para mostrar los datos del nodo
