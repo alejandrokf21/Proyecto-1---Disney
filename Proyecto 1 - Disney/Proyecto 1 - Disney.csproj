@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Pelicula.cs" />
+    <Compile Include="Clases\Reproduccion.cs" />
     <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Estructuras\Cola\Cola.cs" />
     <Compile Include="Estructuras\Cola\NodoCola.cs" />
