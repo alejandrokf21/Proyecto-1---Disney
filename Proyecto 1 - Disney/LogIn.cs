@@ -38,7 +38,7 @@ namespace Proyecto_1___Disney
             comboBox2.Text = "";
         }
 
-       
+
         private void button2_Click(object sender, EventArgs e)
         {
             //Boton iniciar sesion
