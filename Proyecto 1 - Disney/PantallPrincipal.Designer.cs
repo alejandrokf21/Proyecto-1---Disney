@@ -36,6 +36,9 @@ namespace Proyecto_1___Disney
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agreagrPeliculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.eliminarPeliculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -56,6 +59,7 @@ namespace Proyecto_1___Disney
             this.menuStrip1.Size = new System.Drawing.Size(1378, 28);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // usuarioToolStripMenuItem
             // 
@@ -72,27 +76,49 @@ namespace Proyecto_1___Disney
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(143, 26);
             this.toolStripMenuItem1.Text = "Mi Lista";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(140, 6);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(143, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // administrarToolStripMenuItem
             // 
+            this.administrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agreagrPeliculaToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.eliminarPeliculaToolStripMenuItem});
             this.administrarToolStripMenuItem.Image = global::Proyecto_1___Disney.Properties.Resources.video_player;
             this.administrarToolStripMenuItem.Name = "administrarToolStripMenuItem";
             this.administrarToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
             this.administrarToolStripMenuItem.Text = "Administrar";
+            // 
+            // agreagrPeliculaToolStripMenuItem
+            // 
+            this.agreagrPeliculaToolStripMenuItem.Name = "agreagrPeliculaToolStripMenuItem";
+            this.agreagrPeliculaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agreagrPeliculaToolStripMenuItem.Text = "Agregar Pelicula";
+            this.agreagrPeliculaToolStripMenuItem.Click += new System.EventHandler(this.agreagrPeliculaToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(221, 6);
+            // 
+            // eliminarPeliculaToolStripMenuItem
+            // 
+            this.eliminarPeliculaToolStripMenuItem.Name = "eliminarPeliculaToolStripMenuItem";
+            this.eliminarPeliculaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.eliminarPeliculaToolStripMenuItem.Text = "Eliminar Pelicula";
             // 
             // button5
             // 
@@ -189,6 +215,9 @@ namespace Proyecto_1___Disney
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem administrarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agreagrPeliculaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem eliminarPeliculaToolStripMenuItem;
     }
 }
 

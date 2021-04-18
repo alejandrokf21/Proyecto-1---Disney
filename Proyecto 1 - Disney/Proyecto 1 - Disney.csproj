@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgrearPelicula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgrearPelicula.Designer.cs">
+      <DependentUpon>AgrearPelicula.cs</DependentUpon>
+    </Compile>
     <Compile Include="Clases\Pelicula.cs" />
     <Compile Include="Clases\Reproduccion.cs" />
     <Compile Include="Clases\Usuario.cs" />
@@ -71,6 +77,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AgrearPelicula.resx">
+      <DependentUpon>AgrearPelicula.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>

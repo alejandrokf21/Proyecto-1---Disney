@@ -21,13 +21,17 @@ namespace Proyecto_1___Disney.Clases
             this.titulo = titulo;
             this.categoria = categoria;
         }
+
+       
     }
     public enum Categoria
     {       
-        Disney, 
-        Pixar, 
-        Marvel, 
-        StarWars,
-        NationalGeographic
+        Disney=0, 
+        Pixar=1, 
+        Marvel=2, 
+        StarWars=3,
+        NationalGeographic=4
     }
 }
+
+
